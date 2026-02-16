@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ComicBookGallery.Controllers
 {
-    public class ComicBooksController: Controllers
+    public class ComicBooksController: Controller
     {
+        public string Details()
+        { 
+            return "Hello from the Details action method in the ComicBooks controller!";
+
+        }
     }
 }
